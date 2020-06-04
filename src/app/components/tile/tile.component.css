@@ -1,0 +1,54 @@
+div {
+  width: 128px;
+  height: 128px;
+  background: no-repeat url("/assets/imgs/logo.png");
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.empty:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.left-top {
+  background-position: left top;
+}
+
+.center-top {
+  background-position: center top;
+}
+
+.right-top {
+  background-position: right top;
+}
+
+.left-center {
+  background-position: left center;
+}
+
+.center-center {
+  background-position: center center;
+}
+
+.right-center {
+  background-position: right center;
+}
+
+.left-bottom {
+  background-position: left bottom;
+}
+
+.center-bottom {
+  background-position: center bottom;
+}
